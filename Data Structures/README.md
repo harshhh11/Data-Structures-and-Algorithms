@@ -12,9 +12,10 @@ Eg:- List - ADT
 Array is a Concrete Implmentation of List
 
 2) Concrete Implementation - Implementation of ADTs
-Array - Concrete Implementation
 
-Linked List - Concrete Implementation
+Eg:- 
+* Array - Concrete Implementation
+* Linked List - Concrete Implementation
 
 ### Problems with Array 
 
