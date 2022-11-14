@@ -6,21 +6,12 @@ typedef struct Node {
     Node* next;
 } Node;
 
-// void Insert(int x) 
-// {
-//     Node* temp = new Node();
-//     temp->data = x;
-//     temp->next = NULL;
-//     if(head != NULL) temp->next = head;
-//     temp = temp; 
-// }
-
-
+// Passing Pointer to a Pointer because we will have to dereference and update the head to the newNode
 void Insert(Node** headRef, int x) {
-    Node* temp = new Node();
-    temp->data = x;
-    temp->next = *headRef;
-    *headRef = temp;
+    Node* newNode = new Node();
+    newNode->data = x;
+    newNode->next = *headRef;
+    *headRef = newNode;
 }
 
 void Print(Node* head) {
@@ -40,8 +31,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         cout << "Enter the number\n";
         cin >> x;
-        Insert(&head ,x);
-        Print(head);
+        Insert(&head ,x); // Address of the head Node 
+        Print(head); // Address of the first node
     }
 }
 
