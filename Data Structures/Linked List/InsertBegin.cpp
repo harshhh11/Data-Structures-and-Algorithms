@@ -6,7 +6,7 @@ typedef struct Node {
     Node* next;
 } Node;
 
-// Passing Pointer to a Pointer because we will have to dereference and update the head to the newNode
+// Passing Pointer to a Pointer to dereference and update the head to the newNode
 void Insert(Node** headRef, int x) {
     Node* newNode = new Node();
     newNode->data = x;

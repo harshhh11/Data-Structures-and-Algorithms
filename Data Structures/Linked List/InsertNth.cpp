@@ -31,8 +31,8 @@ void Insert(int data, int n) {
     for(int i = 0; i < n-2;i++){
         headRef = headRef->next;
     }
-    newNode->next = headRef->next;
-    headRef->next = newNode;
+    newNode->next = headRef->next; // newNode points to the nth(original) node
+    headRef->next = newNode; // newNode is the nth Node
 }
 
 

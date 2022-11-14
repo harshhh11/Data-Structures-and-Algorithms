@@ -25,6 +25,7 @@ void Insert(int data) // Insert an integer at the end of list
 		headRef = headRef->next;
 	}
 	headRef->next = newNode;
+	return;
 }
 
 void Print() // Print all elements in the list
