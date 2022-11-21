@@ -22,3 +22,20 @@ Time Complexity of all these operation is O(1)
 
 1. Arrays
 2. Linked Lists
+
+## Infix (human-readable)
+
+operand-operator-operand
+
+## Prefix (polish notation)
+
+operator-operand-operand
+- good for machine
+
+## Postfix (reverse polish notation)
+
+operand-operand-operator
+
+* Easiest to parse
+* Least costly in terms of time and memory
+* good for machine 
