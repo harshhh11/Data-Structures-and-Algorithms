@@ -117,3 +117,6 @@ int PerformOperation(char operation, int operand1, int operand2)
         cout << "Unexpected Error \n";
     return -1;
 }
+
+
+// For prefix go from "right to left" instead "left to right" on the expression
