@@ -35,7 +35,7 @@ int EvaluatePostfix(string expression)
     // Declaring a Stack from Standard template library in C++.
     stack<int> S;
 
-    for (int i = 0; i< expressi on.length(); i++)
+    for (int i = 0; i< expression.length(); i++)
     {
 
         // Scanning each character from left.
