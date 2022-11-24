@@ -1,6 +1,8 @@
-# Queue
+# Queue 
 
 A list or collection with the restriction that insertion can be performed at one end(rear) and deletion can be performed at other end(front).
+
+It is a First-In-First-Out(FIFO) Data structure
 
 1. Enqueue(x) or push(x)
 2. Dequeue() or pop()
