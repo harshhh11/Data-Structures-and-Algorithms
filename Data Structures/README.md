@@ -25,4 +25,12 @@ if the list grows too much, in worst case, a new array needs to be created and e
 Solution -> Linked List
 
 
+## How to choose a data structure ?
+
+1. What needs to be stored ?
+2. Cost of operations ?
+3. Memory usage
+4. Ease of Implementation 
+
+
 
