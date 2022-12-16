@@ -28,7 +28,7 @@ void Insert(int data, int n) {
         return;
     } 
     Node* headRef = head;
-    for(int i = 0; i < n-2;i++){
+    for(int i = 1; i < n-1;i++){
         headRef = headRef->next;
     }
     newNode->next = headRef->next; // newNode points to the nth(original) node
